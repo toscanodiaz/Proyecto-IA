@@ -52,8 +52,7 @@ Implementa un modelo de bagging regressor con árboles de decisión como estimad
     - Residuos y su distribución en test
     - Importancia promedio de características en todos los árboles
 
-
-# Reporte --> TBA... 
-
-
 ---
+
+### Reporte --> TBA... 
+
