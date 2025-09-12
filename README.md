@@ -54,5 +54,6 @@ Implementa un modelo de bagging regressor con árboles de decisión como estimad
 
 ---
 
-### Reporte --> TBA... 
+# Reporte
+### TBA...
 
