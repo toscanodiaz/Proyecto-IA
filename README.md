@@ -9,7 +9,7 @@ Se utilizan tanto algoritmos manuales (gradient descent) como modelos de ensambl
 
 ## Archivos
 
-### 1. 'gradientdescent.py'
+### 1. gradientdescent.py
 Implementa regresión lineal implementada manualmente con gradient descent
 
 - **Pasos principales:**
@@ -25,7 +25,7 @@ Implementa regresión lineal implementada manualmente con gradient descent
 
 ---
 
-### 2. 'randomforest.py'
+### 2. randomforest.py
 Implementa un modelo de random forest utilizando scikit-learn
 
 - **Pasos principales:**
@@ -39,7 +39,7 @@ Implementa un modelo de random forest utilizando scikit-learn
     
 ---
 
-### 3. 'bagging.py'
+### 3. bagging.py
 Implementa un modelo de bagging regressor con árboles de decisión como estimadores base
 
 - **Pasos principales:**
@@ -51,5 +51,9 @@ Implementa un modelo de bagging regressor con árboles de decisión como estimad
     - Valores reales vs predicciones en test
     - Residuos y su distribución en test
     - Importancia promedio de características en todos los árboles
+
+
+# Reporte --> TBA... 
+
 
 ---
