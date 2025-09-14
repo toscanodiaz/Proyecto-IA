@@ -39,21 +39,6 @@ Implementa un modelo de random forest utilizando scikit-learn
     
 ---
 
-### 3. bagging.py
-Implementa un modelo de bagging regressor con árboles de decisión como estimadores base
-
-- **Pasos principales:**
-  - División en train/test/validation
-  - Escalado con StandardScaler
-  - Entrenamiento de un bagging regressor con 200 árboles.
-  - Evaluación en los conjuntos train, test y validation
-  - Visualizaciones:
-    - Valores reales vs predicciones en test
-    - Residuos y su distribución en test
-    - Importancia promedio de características en todos los árboles
-
----
-
 # Reporte
 ### TBA...
 
