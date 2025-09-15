@@ -20,6 +20,24 @@ Random Forest reduce la varianza al combinar múltiples árboles lo cual logra m
 - **Desempeño**:
 para este proyecto, Random Forest alcanzó un R² de 0.87 en test, explicando la mayor parte de la varianza de los costos médicos, con errores relativamente bajos frente al rango de valores.
 
+### Principios éticos aplicados 
+
+- **Privacidad y confidencialidad de datos**
+    - El dataset se usó únicamente con fines académicos, sin exponer información personal identificable.
+    - Los datos en cualquier aplicación real deben manejarse de acuerdo con normas como GDPR (Europa) o HIPAA (EE.UU.), las cuales protegen datos de salud. 
+
+- **No discriminación y sesgos**
+    - El dataset incluye variables como sexo, región y hábito de fumar lo cual podría generar predicciones sesgadas si no se interpretan correctamente.
+    - En el análisis se enfatizó la importancia de interpretar la influencia de estas variables con cuidado, evitando justificar discriminación en precios de seguros.
+
+- **Transparencia y explicabilidad**
+    - Se calcularon y se analizaron importancias de variables, mostrando que `smoker`, `bmi` y `age` son los principales factores en el costo médico.
+    - Esto facilita explicar al usuario cómo y por qué el modelo llega a sus predicciones.
+
+- **Uso responsable**
+    - Los modelos se entrenaron y evaluaron en conjuntos de train, validación y test, evitando conclusiones falsas por sobreajuste.
+    - El trabajo muestra escenarios de underfitting, overfitting y ajuste adecuado, destacando la importancia de no usar un modelo ciego en producción.
+
 ---
 
 ## Preprocesamiento de datos
