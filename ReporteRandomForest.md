@@ -290,27 +290,34 @@ La tercera iteración ofrece el mejor balance hasta ahora, reduciendo tanto el e
 Representa una clara mejora frente al underfitting de la primera y al overfitting de la segunda. 
 El modelo se acerca a un ajuste óptimo con predicciones más estables y generalizables.
 
+---
 
+# Conclusiones generales del proyecto 
 
+Después de realizar las distintas configuraciones de hiperparámetros en el momdelo, se tienen estos hallazgos:
 
+### Resultados finales 
+- La primera iteración (profundidad muy baja) mostró underfitting → el modelo fue estable pero no pudo capturar la complejidad de los datos.
+- La segunda iteración (profundidad ilimitada y muchos árboles) presentó un caso de overfitting parcial → excelente en entrenamiento pero con un gap marcado respecto a validación y prueba.
+- La tercera iteración (max_depth=8, n_estimators=150) alcanzó el mejor balance entre bias y varianza:
+    - R² Train: 0.959
+    - R² Validation: 0.828
+    - R² Test: 0.873
+    - RMSE Test: ≈ 4449
+    - MAE Test: ≈ 2365
 
+→ Esto significa que el modelo explica alrededor del 87% de la variabilidad de los costos médicos con un error medio absoluto de aproximadamente 2365 dólares, lo cual es razonable considerando que los costos alcanzan valores superiores a 63,000 dólares.
 
+### Variables más influyentes
+<img width="1919" height="1058" alt="featureimportance" src="https://github.com/user-attachments/assets/6031a8fd-e73f-41fd-92e4-f2c2c6e23575" />
 
+El análisis de importancia de características (feature importance) del Random Forest muestra que las variables con mayor peso en la predicción de charges son:
+- `smoker` (yes/no): es la más determinante → fumar eleva fuertemente el costo del seguro.
+- `bmi` (índice de masa corporal): valores altos se asocian a mayores costos médicos.
+- `age` (edad): a mayor edad mayor probabilidad de costos médicos altos.
+- `children`: el número de hijos también influye pero en menor medida.
+- `sex` y `region`: tienen impacto marginal aunque añaden diversidad al modelo.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+La configuración final alcanzó un modelo robusto y generalizable, capaz de predecir los costos médicos con buena precisión y de identificar las variables más relevantes que afectan al target.
+Este proyecto no solo permitió utilizar Random Forest para problemas de regresión con datos mixtos (categóricos y numéricos), sino también logró explicar que los hábitos de salud, el estado físico y la edad son los factores más determinantes en los costos de un seguro médico.
 
