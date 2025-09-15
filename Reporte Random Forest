@@ -1,3 +1,13 @@
-# Random Forest: Insurance Dataset
----
-Descripción del problema
+# Mi Proyecto
+
+Este es un ejemplo de **Markdown** en GitHub.  
+Se pueden usar listas:
+
+- Uno
+- Dos
+- Tres
+
+Y también bloques de código:
+
+```python
+print("Hola mundo")
