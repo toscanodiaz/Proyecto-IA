@@ -1,7 +1,6 @@
 # Proyecto-IA
 
-Este proyecto aborda dos enfoques distintos para resolver problemas de regresión:  
-uno implementado desde cero sin frameworks y otro utilizando _scikit-learn_.
+Este proyecto aborda dos enfoques distintos para resolver problemas de regresión: uno implementado desde cero sin frameworks y otro utilizando _scikit-learn_.
 
 ---
 
