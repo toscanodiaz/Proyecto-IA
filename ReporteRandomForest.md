@@ -339,3 +339,19 @@ El análisis de importancia de características (feature importance) del Random 
 La configuración final alcanzó un modelo robusto y generalizable, capaz de predecir los costos médicos con buena precisión y de identificar las variables más relevantes que afectan al target.
 Este proyecto no solo permitió utilizar Random Forest para problemas de regresión con datos mixtos (categóricos y numéricos), sino también logró explicar que los hábitos de salud, el estado físico y la edad son los factores más determinantes en los costos de un seguro médico.
 
+---
+
+### Referencias 
+
+- Choi, M. (2018). Medical Cost Personal Dataset (insurance.csv). Kaggle.
+https://www.kaggle.com/datasets/mirichoi0218/insurance
+- Shivam Singh (2023). Insurance Cost Prediction | EDA + ML (R² = 0.87). Kaggle Notebook.
+https://www.kaggle.com/code/shivams811/insurance-cost-prediction-eda-ml-r-0-87
+- Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5–32.
+https://link.springer.com/article/10.1023/A:1010933404324
+- Scikit-learn Developers. Random Forest Regressor Documentation.
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+- European Union (2018). General Data Protection Regulation (GDPR).
+https://gdpr.eu/
+- U.S. Department of Health & Human Services. HIPAA for Professionals.
+https://www.hhs.gov/hipaa/for-professionals/index.html
