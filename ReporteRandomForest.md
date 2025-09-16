@@ -195,7 +195,7 @@ También se calcularon métricas como R², MAE, MSE y RMSE y gráficas de error 
 - **Varianza**: media → el aumento de profundidad y número de árboles genera una mayor sensibilidad a los datos de entrenamiento, pero aún se controla gracias al ensamble.
 - **Nivel de ajuste**: fit con tendencia a overfit → el R² en Train es muy superior al de Validation, aunque no extremo.
 
-→ Ahora el modelo logra un mejor balance pues explica más varianza y reduce errores, pero mueestra indicios de sobreajuste leve.
+* Ahora el modelo logra un mejor balance pues explica más varianza y reduce errores, pero mueestra indicios de sobreajuste leve.
 
 ### Gráficas 
 **Parity Plot**
@@ -236,7 +236,7 @@ También se calcularon métricas como R², MAE, MSE y RMSE y gráficas de error 
 - Los errores absolutos y cuadrados (MAE y RMSE) disminuyeron significativamente en comparación con la primera iteración (MAE = 3139 → 2408 y RMSE = 4950 → 4544).
 - Esto indica que el modelo no solo explica mejor la varianza, sino que también genera predicciones más cercanas a los valores reales.
 
-→ La segunda iteración supera a la primera en capacidad predictiva y reducción de errores aunque introduce un pequeño riesgo de sobreajuste.
+* La segunda iteración supera a la primera en capacidad predictiva y reducción de errores aunque introduce un pequeño riesgo de sobreajuste.
 
 ## Tercera iteración
 ### Hiperparámetros
@@ -324,7 +324,7 @@ Después de realizar las distintas configuraciones de hiperparámetros en el mom
     - RMSE Test: ≈ 4449
     - MAE Test: ≈ 2365
 
-→ Esto significa que el modelo explica alrededor del 87% de la variabilidad de los costos médicos con un error medio absoluto de aproximadamente 2365 dólares, lo cual es razonable considerando que los costos alcanzan valores superiores a 63,000 dólares.
+* Esto significa que el modelo explica alrededor del 87% de la variabilidad de los costos médicos con un error medio absoluto de aproximadamente 2365 dólares, lo cual es razonable considerando que los costos alcanzan valores superiores a 63,000 dólares.
 
 ### Variables más influyentes
 <img width="1919" height="1058" alt="featureimportance" src="https://github.com/user-attachments/assets/6031a8fd-e73f-41fd-92e4-f2c2c6e23575" />
